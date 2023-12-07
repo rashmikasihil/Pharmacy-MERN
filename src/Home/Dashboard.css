@@ -1,0 +1,78 @@
+.dashboard-title {
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #fff; /* Adjust the text color as needed */
+  text-align: center; /* Center the text horizontally */
+  margin-bottom: 20px; /* Add margin at the bottom as needed */
+  border: 2px solid #e33742; /* Add a 2px solid border with the color #007bff */
+  padding: 10px 30px;
+  border-radius: 10px; /* Add padding inside the border */
+  background-color:#e33742; /* Add a background color to the box */
+  display: inline-block; /* Ensure the box only wraps the content */
+}
+
+
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Align text inside the container center */
+  height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: none;
+  background-color: #ffffff; /* Add a background color if needed */
+}
+
+.dashboard-image {
+  width: 500px; /* Adjust the width as needed */
+  height: auto;
+  object-fit: contain; /* This property ensures the image maintains its aspect ratio */
+  object-position: center; /* Position the image at the center */
+  margin: auto; /* Center horizontally */
+  display: block; /* Remove any default inline spacing */
+  max-width: 100%; /* Ensure the image doesn't exceed its container width */
+  max-height: 100%; /* Ensure the image doesn't exceed its container height */
+  padding-bottom: 5%;
+}
+
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.management-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px; /* Adjust the gap between buttons */
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center; /* Center the buttons vertically */
+  padding-bottom: 5%;
+}
+
+.management-button {
+  flex: 1;
+  background-color: #9983bb;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.management-button:hover {
+  background-color:#8d347b;
+}
+

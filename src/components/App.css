@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #faf8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #007bff;
+  }
+  
+  .hero {
+    background-image: url('https://img.freepik.com/free-vector/online-pharmacy-service_107791-2650.jpg?w=996&t=st=1701439317~exp=1701439917~hmac=d2c4947c63b0871033e87521882c2211668355a26abb192ade3a95d116169fe7');
+
+    background-size: cover;
+    height: 600px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-text {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 24px;
+  }
+  
+  .products {
+    margin-top: 100px;
+  }
+  
+  .products h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .product-card {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  
+  .product-card img {
+    margin-right: 20px;
+  }
+  
+  .product-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-details p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .product-details button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .product-details button:hover {
+    background-color: #0062cc;
+  }
+  
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    color: #333;
+  }
+
+  .container-img {
+    width: 100px;
+    height: 100px;
+  }
+  

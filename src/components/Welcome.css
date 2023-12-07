@@ -1,0 +1,135 @@
+.container {
+    display: flex;
+  }
+  aside {
+    background-color: #e23841;
+    color: white;
+    padding: 0px;
+    
+    
+  }
+  
+  nav {
+    background-color: #e23841;
+    color: white;
+    padding: 0px;
+    font-weight: 100;
+    left: 0px;
+    left: 0;
+    top: 0; /* Adjust the top distance according to your preference */
+    height: 80%;/* Make the navigation bar cover the entire height */
+    overflow-y: auto; 
+       
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+ 
+
+/* Style for each navigation link */
+nav ol li {
+  list-style: none;
+  padding: 0;
+}
+
+nav ol li a {
+  display: block;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  background-color: #ffa73a;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-weight: bold; /* Add this line to set the font weight */
+}
+
+/* Hover effect for navigation links */
+nav ol li a:hover {
+  background-color: #e57026;
+}
+
+/* Apply styles to the header image */
+nav ol li:first-child img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%; /* For a circular image */
+  overflow: hidden;
+  border: 2px solid white; /* Add a border to the image */
+}
+
+/* Optional: Adjust spacing for better readability */
+nav ol {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+ 
+}
+
+  nav .sidebar-word {
+    display: none;
+    
+  }
+  
+  button.toggle-btn {
+    background-color: #ffa73a;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    position: fixed;
+    left: 0;
+    top: 0; /* Align the button with the top-left corner */
+  
+    
+    /* Add the following styles to move the button to the left side */
+    position: fixed;
+    left: 0px; /* Adjust the left distance according to your preference */
+  }
+  /* Iteam */
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    width: calc((100% / 4) - 20px); /* Set the width for each card, dividing the total width by 4 and subtracting margin */
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-details {
+    flex: 1;
+    padding: 8px; /* Reduce padding to make the hole size smaller */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .product-details h3 {
+    margin-top: 0;
+  }
+  
+  .product-details p {
+    margin-bottom: 8px; /* Adjust margin to match the smaller size */
+  }
+  
+  .product-details h3,
+  .product-details p {
+    color: #333;
+  }
+  
+  .product-details button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 6px; /* Reduce padding to make the button smaller */
+    cursor: pointer;
+  }
+  
+  
